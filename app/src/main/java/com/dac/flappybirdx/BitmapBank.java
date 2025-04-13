@@ -14,10 +14,10 @@ public class BitmapBank {
         background_game = scaleImage(background_game);
 
         bird = new Bitmap[4];
-        bird [0] = BitmapFactory.decodeResource(resources, R.drawable.bird_frame1);
-        bird [1] = BitmapFactory.decodeResource(resources, R.drawable.bird_frame2);
-        bird [2] = BitmapFactory.decodeResource(resources, R.drawable.bird_frame3);
-        bird [3] = BitmapFactory.decodeResource(resources, R.drawable.bird_frame4);
+        bird [0] = BitmapFactory.decodeResource(resources, R.drawable.icon_frame1);
+        bird [1] = BitmapFactory.decodeResource(resources, R.drawable.icon_frame2);
+        bird [2] = BitmapFactory.decodeResource(resources, R.drawable.icon_frame3);
+        bird [3] = BitmapFactory.decodeResource(resources, R.drawable.icon_frame4);
 
 
     }
